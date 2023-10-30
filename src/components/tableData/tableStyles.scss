@@ -1,0 +1,32 @@
+.generalTable{
+  max-width: 940px;
+  margin: 0 auto;
+}
+.tableData {
+  display: flex;
+  align-items: center;
+  padding-left: 30px !important;
+
+  &__userImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+
+  &__userName {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+  &__buttonBox{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.link {
+  color: #ffff;
+  text-decoration: none;
+}

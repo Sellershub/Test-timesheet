@@ -1,0 +1,56 @@
+p {
+  margin: 0 !important;
+}
+
+.userContainer {
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+
+  &__nameBox {
+    &__img {
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      margin-right: 20px;
+      object-fit: cover;
+    }
+    &__userName {
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+}
+
+.timeDataContainer{
+  margin-top: 20px;
+}
+.timeInfo{
+  margin-bottom: 15px;
+
+  &__date{
+    font-size: 18px;
+    color: gray;
+  }
+
+  &__time{
+    font-size: 20px;
+  }
+}
+.totalTimeContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+
+  &__titleTime{
+    font-size: 18px;
+    color: gray;
+  }
+  &__currentTime{
+    font-size: 20px;
+  }
+}
+
